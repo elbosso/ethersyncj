@@ -34,4 +34,13 @@ Alternatively one could just start the example application using maven by  issui
 mvn compile exec:java
 ```
 
-The example app opens am editor window based on `javax.swing.JTextArea`, editing the file given. If you start it multiple times, any edits done in one of the editors is reflected in the others.
+The example app opens an editor window based on `javax.swing.JTextArea`, editing the file given. If you start it multiple times, any edits done in one of the editors is reflected in the others.
+
+## Diagrams
+
+### Communication
+![image](https://github.com/user-attachments/assets/21528263-9cde-4da0-a8ec-59680ba4298b)
+### Creation / Use
+![image](https://github.com/user-attachments/assets/0f218abe-ed58-4ced-a5e3-153304ed45e0)
+### Class Hierarchy
+![image](https://github.com/user-attachments/assets/311176c3-eb0b-4ed3-8ccf-a93368bce256)
