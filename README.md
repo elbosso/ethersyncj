@@ -1,3 +1,7 @@
+This project is archived as it turned out that java (swing) does not really map to the protocol: The protocol thinks in lines where Java (swing) thinks of a document
+as a stream of characters without the concept of lines - this only happens in the view components - not on the model level. Edit events are on the model level though - 
+so (as already mentioned) Java (swing) in incompatible to the ethersync protocol.
+
 # ethersyncj
 
 <!---
